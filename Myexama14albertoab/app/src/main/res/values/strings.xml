@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Myexama14albertoab</string>
+    <string name="nome_hint">Surname, name</string>
+    <string name="modulo_hint">Module of exam</string>
+    <string name="btnIntro">Introduce</string>
+    <string name="empezar">Start Exam</string>
+    <string name="noraboa">Noraboa</string>
+    <string name="acabar">Acabaches o exame de</string>
+    <string name="btnScore">Score</string>
+    <string name="rbSus">Sus</string>
+    <string name="rbApr">Apr</string>
+    <string name="rbNot">Not</string>
+    <string name="rbSob">Sob</string>
+    <string name="nota">Nota:</string>
+    <string name="aprobado">A nota do exame e Aprobado</string>
+    <string name="suspenso">A nota do exame e Suspenso</string>
+    <string name="notable">A nota do exame e Notable</string>
+    <string name="sobresaliente">A nota do exame e Sobresaliente</string>
+    <string name="duasmensaxe">A nota do exame e:</string>
+    <string name="mensaxe">Primeiro tes que meter os datos pulsando no boton Introduce</string>
+    <string-array name="dia">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="mes">
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+    </string-array>
+    <string-array name="ano">
+        <item>2010</item>
+        <item>2011</item>
+        <item>2012</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+    </string-array>
+
+
+</resources>

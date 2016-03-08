@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MyExama14albertoab">
+
+    <EditText
+        android:id="@+id/idName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nome_hint"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idName"
+        android:id="@+id/idModulo"
+        android:hint="@string/modulo_hint"
+        android:background="@color/negro"
+        android:textColor="@color/branco"
+        android:textColorHint="@color/branco"/>
+    <Button
+        android:id="@+id/idIntro"
+        android:layout_below="@id/idModulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnIntro"
+        android:background="@color/amarelo"
+        android:layout_centerHorizontal="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idHorizontal"
+        android:orientation="horizontal"
+        android:layout_below="@+id/idIntro">
+        <Spinner
+            android:layout_weight="1"
+            android:id="@+id/idSpindia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/dia"></Spinner>
+        <Spinner
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/mes"></Spinner>
+        <Spinner
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/idSpinano"
+            android:entries="@array/ano"></Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/idHorizontal"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/idEmpezar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/empezar"
+            android:background="@color/amarelo"
+            android:layout_gravity="bottom|center_horizontal"
+
+            />
+    </LinearLayout>
+
+</RelativeLayout>
